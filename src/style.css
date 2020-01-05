@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+
+h3{
+    justify-content: center;
+    display: flex;
+}
+
+.personalHeading{
+    text-align: center;
+    font-size:30px;
+    font-style: bold;
+    color:#4b6f90;
+    padding:40px 0px 40px 0px;
+}
+
+.dataFields{
+    text-align: center;
+    font-size:15;
+    font-style: bold;
+    padding:10px 10px 10px 10px;
+}
+
+.titleName{
+    padding-bottom: 5px;
+}
+
+.dataWrapper{
+    width: 45em;
+    margin:auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    width: 15em;
+}
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
